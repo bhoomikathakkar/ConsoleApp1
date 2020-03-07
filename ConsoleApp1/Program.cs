@@ -18,7 +18,8 @@ namespace ConsoleApp1
 
             IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl("https://www.google.com");
-           
+
+            Console.WriteLine("open google.com");
         }
     }
 }
