@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +14,11 @@ namespace ConsoleApp1
         {
             Console.WriteLine("first command pull to git");
             Console.WriteLine("second command pull to git");
+            Console.WriteLine("third command pull to git");
+
+            IWebDriver driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://www.google.com");
+           
         }
     }
 }
