@@ -11,6 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("first command pull to git");
+            Console.WriteLine("second command pull to git");
         }
     }
 }
